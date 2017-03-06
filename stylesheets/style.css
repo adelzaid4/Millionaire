@@ -1,0 +1,153 @@
+body 
+{
+    background-color: black !important;
+    color: white !important;
+}
+.background {
+   background-image: url(../icons/bg1.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+      background-color: black;
+}
+.div{
+    background-color: black !important;
+    color: white !important;
+}
+.myblock 
+{
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+}
+.questionbox
+{
+    background: linear-gradient(to bottom, #6d8ccb 1%,#1c2370 61%);
+    border-radius: 100px 100px;
+    border-color:  whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    padding-top: 8px;
+    width: 90%;
+    height: 50px; 
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px;
+    color: aliceblue;
+    font-size: 1.5em ;
+}
+.ansitem
+{
+    border-radius: 100px 100px !important;
+    background: linear-gradient(to bottom, #6d8ccb 1%,#1c2370 61%) !important;
+    border-color:  whitesmoke !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    color: aliceblue !important;
+    width: 40% !important;
+    height: 40px !important; 
+    text-align: center !important;
+    box-sizing: border-box !important;
+    margin: 5px !important;
+}
+.ansitem:hover
+{
+    border-radius: 100px 100px !important;
+    border-color:  whitesmoke !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    width: 40% !important;
+    height: 40px !important; 
+    text-align: center !important;
+    box-sizing: border-box !important;
+    margin: 5px !important;
+    background: radial-gradient(ellipse at center, #fcfff4 0%,#dfe5d7 50%,#b3bead 100%)!important;
+    color: #1c2370 !important;
+}
+.ansitemcheck
+{
+    background: linear-gradient(to bottom, #ffd65e 0%,#febf04 100%) !important;
+    color: black !important;
+    border-radius: 100px 100px !important;
+    border-color:  whitesmoke !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    width: 40% !important;
+    height: 40px !important; 
+    text-align: center !important;
+    box-sizing: border-box !important;
+    margin: 5px !important;
+}
+.wrongans
+{
+    background: linear-gradient(to bottom, #ff4433 0%,#9d0303 100%) !important;
+    color: white!important;
+    border-radius: 100px 100px !important;
+    border-color:  white !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    width: 40% !important;
+    height: 40px !important; 
+    text-align: center !important;
+    box-sizing: border-box !important;
+    margin: 5px !important;
+}
+.rightans
+{
+    background: linear-gradient(to bottom, #51e73d 0%,#207608 100%) !important;
+    color: white!important;
+    border-radius: 100px 100px !important;
+    border-color:  white !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    width: 40% !important;
+    height: 40px !important; 
+    text-align: center !important;
+    box-sizing: border-box !important;
+    margin: 5px !important;
+}
+
+.helpicon{
+    border-radius: 100px 100px;
+    border-color:  white;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.helpicon:hover{
+    background-color: darkblue;
+}
+.option{
+    border-radius: 100px 100px !important;
+    border-color:  white !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    background-color: transparent !important;
+    color: white !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin: 10px !important;
+}
+.option:hover{
+    background-color: darkblue !important;
+}
+#levels {
+	float: left !important;
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	text-align: right!important;
+	font-size: 0.8em !important;
+    
+}
+.active {
+	background-color: #febf04!important;
+}
+.stage{
+    color: green !important;
+    text-decoration: bold !important;
+}

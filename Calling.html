@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="stylesheets/Calling.css"/>
+        <script type="text/javascript" src="Javascript/call.js"></script>
+        <script type="text/javascript" src="Javascript/jquery-1.12.4.js"></script>
+        <script type="text/javascript" src="Javascript/circular-countdown.js"></script>
+    </head>
+    <body>
+        <div>
+            <audio id="CallingAudio"></audio>
+            <div id="background">
+        <div id="firstFriend" onclick="callFirst()">
+            <div id="Image">
+                <center><img id="imgFriend" src="icons/man.svg" > </center></div>
+            <div id="Phone">
+                <center><img id="imgPhone" src="icons/speech-bubble.svg" ></center> </div>
+            <div id="info"> 
+            <center><span id="Name">أحمد مدحت</span></center>
+              <center><span id="Nationality">مصر</span></center>
+            </div>
+        </div>
+        <div id="secondFriend" onclick="callSecond()">
+            <div id="Image">
+                <center><img id="imgFriend" src="icons/telemarketer.svg" > </center></div>
+            <div id="Phone">
+                <center><img id="imgPhone" src="icons/speech-bubble.svg" ></center> </div>
+            <div id="info"> 
+            <center><span id="Name">إيمان هشام</span></center>
+              <center><span id="Nationality">السعودية</span></center>
+            </div>
+        </div>
+         
+    </div>
+            <div class="timer"></div>
+            <div id="CalledFriend">
+            <center>
+            <img id="CalledImage"/>
+            </center>
+        </div>
+        </div>
+    </body>
+</html>

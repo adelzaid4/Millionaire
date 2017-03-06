@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Millionare</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="stylesheets/style.css" type="text/css"/>
+        <link rel="stylesheet" href="stylesheets/cssCustome.css" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/jquery-ui.js" type="text/javascript"></script>
+        <link href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/themes/blitzer/jquery-ui.css"
+        rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="stylesheets/fireworks.css" >
+    </head>
+    <body>
+        <audio id="fWAudio" src="sound/pop.mp3" loop></audio>
+        <div id="library">
+                 <img src="icons/big-glow.png" id="big-glow" hidden="true"/>
+                 <img src="icons/small-glow.png" id="small-glow"  hidden="true"/>
+        </div>
+            <canvas id="myCanvas" width="1000" height="700"></canvas>
+            <img id="canvasBG" />
+    </body>
+    <script src="Javascript/requestanimframe.js"></script>
+        <script src="Javascript/fireworks.js"></script>
+</html>

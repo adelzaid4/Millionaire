@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log In</title>
+        <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+          <link rel="stylesheet" type="text/css" href="stylesheets/cssCustome.css" media="screen" />
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+          <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+      <script>
+            $(document).ready(function() {
+                $("#gobtn").click(function(){
+                var name=document.getElementById("username").value;
+                var pass=document.getElementById("password").value;
+                if(name=="NAAA" && pass=="naaa123")
+                    {
+                        window.open("adminpage.html","_self");
+                        document.getElementById("errorspan").textContent="";
+                    }
+                else
+                    {
+                        document.getElementById("username").value="";
+                        document.getElementById("password").value="";
+                        document.getElementById("errorspan").textContent="Invalid Username or Password !";
+                        document.getElementById("errorspan").style="color:red";
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div data-role="page" id="login" class="abackground" >
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                  <img src="icons/logo.png" height="50" width="50"/>
+                  <a class="navbar-brand"><strong>من سيربح المليون</strong></a>
+              </div>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="welcome.html" rel="external" title="Home"> Back to Home <span class="glyphicon glyphicon-arrow-right"></span></a></li>
+              </ul>
+            </div>
+          </nav>
+
+        <div data-role="content" data-cache="false">
+
+          <label >Admin Login</label>
+            <input id="username" type="text" class="form-control" name="User Name" placeholder="username" style="background-color:black;border-color:black;color:white;height:50px;" >
+            <input id="password" type="password" class="form-control" name="password" placeholder="Password" style="background-color:black;border-color:black;color:white;height:50px;" >
+
+          <br/><br/>
+          <a class="centerLink" id="gobtn"> <img src="icons/next.svg" class="helpicon" /> </a>
+            <br/><br/><br/>
+              <label id="errorspan" class="error"/>
+         </div>
+
+      </div>
+
+    </body>
+</html>
